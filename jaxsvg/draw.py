@@ -10,6 +10,7 @@ def draw_path(
     bezier_parameters,
     dim=256,
     sampling_res=256,
+    just_outline=False,
 ):
   """Draw a filled path mask with anti-aliasing according to Bezier curves.
 
@@ -67,6 +68,8 @@ def draw_path(
                              distance_pixels)
   mask = util.fill_shape(sorted_x)
   outline = ((threshold) - distance_pixels) / threshold
+  if just_outline:
+    return outline
   mask = mask + outline
   mask = np.where(mask > 1, np.ones_like(mask), mask)
   return mask
