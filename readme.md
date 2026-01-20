@@ -29,3 +29,7 @@ The tests and examples use closed cubic Bézier paths. Quadratic curves or lines
 ### Learning complex and colorful shapes - emojis!
 
 In this example, 24 randomly initialized blobs are optimized directly against a sample from the Noto Emoji library. The flickering is by design: during training, blurriness is intentionally annealed to prevent local minima.
+
+https://github.com/user-attachments/assets/8ee40619-f3d4-41ee-b6a5-6506ac45cde5
+
+
