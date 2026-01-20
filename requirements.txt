@@ -1,0 +1,8 @@
+numpy>=2.4
+jax>=0.8
+jaxlib>=0.8
+flax>=0.12
+optax>=0.2
+imageio[ffmpeg]>=2.37
+matplotlib>=3.10
+pytest>=9.0

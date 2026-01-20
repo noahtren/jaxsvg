@@ -1,2 +1,9 @@
 .DS_Store
 __pycache__
+.venv/
+*.egg-info/
+.local/
+examples/assets/*.py
+examples/assets/*frames/
+examples/assets/noto/
+examples/assets/*.mp4
